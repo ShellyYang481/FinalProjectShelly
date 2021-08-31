@@ -1,0 +1,263 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #ffffff;
+}
+
+.mainpage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.topbar {
+    /* border: 1px solid blue; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 25px;
+}
+
+.top-left-bar-container {
+    /* border: 1px solid green; */
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.top-left-bar-container img {
+    width: 120px;
+    vertical-align: bottom;
+    margin-left: 16px;
+}
+
+.top-left-bar-container span {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #57606f;
+    margin: 10px 10px 0 0;
+    padding: 5px 10px;
+}
+
+.top-right-bar-container {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.top-right-bar-container ul li {
+    display: inline;
+}
+
+.SearchBox {
+    /* display: inline-block; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchBox-button {
+    border: none;
+    display: flex;
+    transition: .3s;
+
+
+    /* background-color: red; */
+}
+
+.SearchBox-button:active {
+    transform: scale(.85);
+}
+
+.SearchBox-button img {
+    /* border: 2px solid red; */
+    width: 50px;
+    border-radius: 50px;
+    margin: auto;
+    vertical-align: bottom;
+}
+
+.SearchBox-button img:hover {
+    cursor: pointer;
+}
+
+.SearchBox:hover .SearchBox-input {
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 240px;
+}
+
+.SearchBox-input {
+    border: none;
+    background: none;
+    outline: 0;
+    display: flex;
+    height: 35px;
+    width: 0;
+    font-size: 1.2em;
+    color: #747d8c;
+    transition: .45s;
+}
+
+.alert-container img {
+    display: flex;
+    position: relative;
+    top: 1rem;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    margin: 0 1rem;
+    border-radius: 50%;
+    float: right;
+}
+
+.alert-container img:active {
+    transform: scale(.85);
+}
+
+.clickable:active {
+    transform: scale(.85);
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+.numberCircle {
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #d63031;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    left: 35px;
+    padding: 3px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.alert-container {
+    /* border: 1px solid blue; */
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 100%;
+    float: right;
+    background: none;
+}
+
+.alert-container:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.user-info-container {
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 150px;
+
+}
+
+.user-info-container img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.user-info-container span {
+    font-size: 1.3rem;
+    margin: 0 .5rem;
+    position: relative;
+    top: .2rem;
+    color: #57606f;
+}
+
+.user-info-container::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    background: #f00;
+}
+
+.select-function-navbar {
+    top: 8rem;
+    left: 2rem;
+    width: 17vw;
+    height: 75vh;
+}
+
+.container {
+    border-radius: 1.5rem;
+    position: absolute;
+    padding: 1.5rem 1rem 1rem 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.emp-profile-main-container {
+    /* border: 1px solid red; */
+    top: 8rem;
+    left: 2rem;
+    width: 95vw;
+    height: 70vh;
+}
+
+.emp-name-title {
+    /* border: 1px solid blue; */
+    padding: 1rem;
+}
+
+.emp-name-title hr{
+    margin: 0.5rem 0;
+}
+
+.emp-info-container {
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 33%;
+    height: 55vh;
+}
+
+.emp-info-title {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.emp-info-container hr {
+    width: 10rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.emp-info-container table tr td {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+
+.l {
+    text-align: left;
+    width: 12rem;
+}
+
+.r {
+    text-align: left;
+}

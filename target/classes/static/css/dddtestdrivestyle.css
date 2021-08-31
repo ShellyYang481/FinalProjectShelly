@@ -1,0 +1,350 @@
+
+
+/* 1 BookForm */
+.body_bookf{
+    margin: 0;
+    padding: 0;
+	background-image: url(../images/car.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+}
+.h_bookf{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.table_bookf{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+.table_bookf tbody{
+    text-align: center;
+}
+.table_bookf tbody tr:nth-child(odd){ 
+    background-color: #F2F4FB;
+}
+.table_bookf tbody tr:nth-child(even){ 
+    background-color:#FFFFE1;
+}
+
+.table_bookf td{
+    padding: 2px;
+}
+
+.submitbut_bookf{
+/*    margin-left: 50%;
+    margin-right: 50%;*/
+}
+
+textarea{
+    resize: none;
+}
+
+label{
+    display: block;
+}
+
+.div{
+    text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.divsub_bookf{
+	text-align: center;
+}
+
+.errmes_bookf{
+text-align: center;
+color: red;
+}
+
+.disclaimer_bookf{
+	text-align: center;
+	padding: 0px 100px;
+}
+
+.onekey{
+    position: absolute;
+    margin-left: 20px;
+}
+
+.tdToS{
+	text-align: right;
+	border-right-width: 0;
+}
+
+
+
+/* 1.1 terms.html */
+
+.body_terms{
+    padding: 10%;
+}
+
+.btn_bookf{
+	color: #551A8B;
+	text-decoration: underline;
+}
+
+
+
+
+/* 2 BookDisplay */
+
+.body_bookd{
+	background-image: url(../images/car2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%  ;
+    background-attachment: local;
+}
+
+.h_bookd{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.table_bookd{
+    border: 1px solid black;
+    width: 70%;
+    border-collapse: collapse;
+    margin: auto;
+}
+.table_bookd tbody{
+    text-align: center;
+}
+.table_bookd tbody tr:nth-child(odd){ 
+    background-color: #F2F4FB;
+}
+.table_bookd tbody tr:nth-child(even){ 
+    background-color:#FFFFE1;
+}
+.table_bookd td{
+    padding: 2px;
+}
+.div_bookd{
+    text-align: center;
+}
+
+.formTime{
+	margin-left: 15%;
+	color: white;
+}
+
+
+
+/* 3 BookComplete */
+
+.body_bookc{
+	background-image: url(../images/car2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%  ;
+    background-attachment: local;
+}
+
+.h_bookc{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.div_bookc{
+	margin-top: 10%;
+}
+
+
+/* 4 BookUpdate*/
+
+.body_booku{
+	background-image: url(../images/car3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%  ;
+    background-attachment: local;
+}
+
+.h_booku{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+
+.table_booku{
+    border: 1px solid black;
+    width: 70%;
+    border-collapse: collapse;
+    margin: auto;
+}
+.table_booku tbody{
+    text-align: center;
+}
+
+.table_booku thead tr:nth-child(1){ 
+    background-color:#F2F4FB;
+}
+.table_booku tbody tr:nth-child(1){ 
+    background-color:#FFFFE1;
+}
+
+.table_booku th,td{
+    padding: 2px;
+    border: 1px solid black
+}
+
+.div_booku{
+    text-align: center;
+}
+
+
+
+/* 5 BookUpdSub*/
+
+.body_bookus{
+	background-image: url(../images/car3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%  ;
+    background-attachment: local;
+}
+
+.h_bookus{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.table_bookus{
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table_bookus tbody tr:nth-child(odd){ 
+    background-color: #F2F4FB;
+}
+.table_bookus tbody tr:nth-child(even){ 
+    background-color:#FFFFE1;
+}
+
+.table_bookus td{
+    padding: 2px;
+}
+
+.submitbut_bookus{
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.div_bookus{
+    text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+/* 6 QueryForms*/
+
+.body_queryf{
+	background-image: url(../images/car4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%  ;
+    background-attachment: local;
+}
+
+.h_queryf{	
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+.div1{
+	display: block;
+}
+
+.divtest{
+	display: none !important;
+}
+
+
+
+
+
+/* 7 QueryDisplay*/
+
+.body_queryd{
+	background-image: url(../images/car4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%  ;
+    background-attachment: local;
+}
+
+.h_queryd{	
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+.table_queryd{
+	border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.table_queryd thead{
+	text-align: center;
+	background-color:#FFFFE1;
+}
+
+.table_queryd tbody tr:nth-child(odd){ 
+    background-color: #F2F4FB;
+}
+
+.table_queryd tbody tr:nth-child(even){
+	background-color: #FFFFE1;
+}
+
+.table_queryd td{
+	text-align: center;
+    padding: 2px;
+}
+
+.table_queryd th{
+    padding: 2px;
+}
+
+.div_queryd{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+
+/* 8 QueryDelComplete*/
+
+.body_querydc{
+	background-image: url(../images/car4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%  ;
+    background-attachment: local;
+}
+
+.h_querydc{	
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+.div_querydc{
+	margin-top: 10%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+

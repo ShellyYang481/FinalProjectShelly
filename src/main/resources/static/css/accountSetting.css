@@ -1,0 +1,355 @@
+.account-section {
+  padding-top: 10rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(206, 214, 224, 1) 0%,
+    rgba(206, 214, 224, 0.9) 75%,
+    rgba(206, 214, 224, 0.8) 100%
+  );
+  height: 100vh;
+}
+
+.relative {
+  position: relative;
+}
+
+.user-title-container {
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 50px;
+}
+
+.user-title-container h1 {
+  float: left;
+  padding-bottom: 10px;
+  font-weight: normal;
+  line-height: 50px;
+}
+
+.user-title-container ul li {
+  display: inline;
+  float: right;
+  padding-left: 10px;
+}
+
+.user-nav {
+  position: relative;
+  right: 0;
+  top: 25px;
+}
+
+.user-nav ul li a:link {
+  text-decoration: none;
+  color: #57606f;
+}
+
+.user-nav ul li a:hover {
+  text-decoration: none;
+  color: #2f3542;
+}
+
+.setting-select-container {
+  /* border: 2px solid orange; */
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 60px auto;
+  width: 80%;
+}
+
+.select-change-profile-container {
+  background-color: rgba(116, 125, 140, 1);
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.select-change-profile-container:hover {
+  transform: scale(1.005);
+}
+
+.select-change-profile-container span {
+  margin: 0 auto;
+  color: #dfe4ea;
+}
+
+.select-change-passwd-container {
+  background-color: rgba(116, 125, 140, 1);
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.select-change-passwd-container:hover {
+  transform: scale(1.005);
+}
+
+.select-change-passwd-container span {
+  margin: 0 auto;
+  color: #dfe4ea;
+}
+
+.change-profile-oauth-container {
+  display: none;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.change-profile-oauth-container label {
+  font-size: 20px;
+}
+
+.change-profile-oauth-container input {
+  color: #f1f2f6;
+  margin: 10px;
+  border-radius: 20px;
+  text-indent: 15px;
+  border: none;
+  height: 30px;
+  width: 250px;
+  background-color: #747d8c;
+}
+
+.change-profile-oauth-container input:hover {
+  background-color: #a4b0be;
+}
+
+.change-profile-oauth-container input:focus {
+  outline: none;
+  background-color: #a4b0be;
+}
+
+.change-profile-oauth-container button {
+  color: #f1f2f6;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  width: 200px;
+  background-color: #747d8c;
+}
+
+.change-profile-oauth-container button:hover {
+  background-color: #a4b0be;
+}
+
+#changeProfileOauthCancel {
+  background-color: white;
+  border: 1px solid #2f3542;
+  font-weight: 550;
+  color: #2f3542;
+}
+
+#changeProfileOauthCancel:hover {
+  background-color: #2f3542;
+  border: 1px solid white;
+  font-weight: 550;
+  color: white;
+}
+
+.change-profile-form-container {
+  display: none;
+  text-align: left;
+  /* border: 1px solid blue; */
+  width: 80%;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.change-profile-form-container hr {
+  width: 80%;
+  margin: 5px auto;
+}
+
+.profile-form-container {
+  /* border: 1px solid red; */
+  width: 500px;
+  margin: 0 auto;
+}
+
+.lab-input-container {
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+.lab-input-container input {
+  text-indent: 15px;
+  border-radius: 20px;
+  background-color: #dfe4ea;
+  border: none;
+  height: 30px;
+  width: 40%;
+}
+
+.lab-input-container input:focus {
+  outline: none;
+}
+
+.lab-input-container select {
+  text-indent: 15px;
+  border-radius: 20px;
+  background-color: #dfe4ea;
+  border: none;
+  height: 30px;
+  width: 100%;
+}
+
+.lab-input-container select:focus {
+  outline: none;
+}
+
+.label-container {
+  /* border: 1px solid green; */
+  display: inline-block;
+  /* line-height: 30px; */
+  width: 150px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.label-container label {
+  float: right;
+}
+
+.input-container {
+  /* border: 1px solid lightcoral; */
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+  height: 30px;
+  width: 200px;
+}
+
+.input-container input {
+  width: 100%;
+}
+
+.input-container select {
+  text-align: center;
+  width: 100%;
+  appearance: none;
+}
+
+#input-submit {
+  border-radius: 20px;
+  background-color: #dfe4ea;
+  border: none;
+  height: 30px;
+  width: 40%;
+}
+
+#input-submit:hover {
+  cursor: pointer;
+  background-color: #ced6e0;
+}
+
+.lab-input-submit-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.change-profile-result-container {
+  visibility: hidden;
+  text-align: center;
+  margin-top: 35px;
+  height: 50px;
+}
+
+#change-profile-result-img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+#change-profile-result-span {
+  margin-left: 5px;
+  color: green;
+  vertical-align: middle;
+}
+
+#changeProfileCancel {
+  border-radius: 20px;
+  margin-top: 1rem;
+  background-color: #f1f2f6;
+  border: 1px solid #2f3542;
+  height: 30px;
+  width: 40%;
+}
+
+#changeProfileCancel:hover {
+  background-color: #2f3542;
+  border: none;
+  color: #f1f2f6;
+  cursor: pointer;
+}
+
+.change-passwd-form-container {
+  /* border: 1px solid red; */
+  display: none;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+}
+
+.change-passwd-form-container label {
+  font-size: 20px;
+}
+
+.change-passwd-form-container input {
+  color: #f1f2f6;
+  margin: 10px;
+  border-radius: 20px;
+  text-indent: 15px;
+  border: none;
+  height: 30px;
+  width: 250px;
+  background-color: #747d8c;
+}
+
+.change-passwd-form-container input:hover {
+  background-color: #a4b0be;
+}
+
+.change-passwd-form-container input:focus {
+  outline: none;
+  background-color: #a4b0be;
+}
+
+.change-passwd-form-container button {
+  color: #f1f2f6;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  width: 200px;
+  background-color: #747d8c;
+}
+
+.change-passwd-form-container button:hover {
+  background-color: #a4b0be;
+}
+
+.passwd-change-input {
+  margin: 0 auto;
+}

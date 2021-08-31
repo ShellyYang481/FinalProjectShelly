@@ -1,0 +1,138 @@
+.bg-gray-custom {
+  background: linear-gradient(
+    to bottom,
+    #ced6e0 0%,
+    rgba(206, 214, 224, 0.4) 75%,
+    rgba(206, 214, 224, 0.6) 100%
+  );
+}
+
+#idfSub > table > tbody > tr > td {
+  padding: 0.8rem 0;
+}
+
+.wh-40 {
+  width: 50%;
+  height: 40px;
+  padding: 0;
+}
+
+.search-book-form-custom {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.po-re {
+  position: relative;
+  /* border: 1px solid blue; */
+}
+
+.search-icon-btn-custom {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.search-input-custom {
+  width: 150px;
+  display: inline;
+}
+
+.pd-2rem {
+  padding: 10rem 0 2rem 0;
+}
+
+.input-group-addon {
+  width: 30px;
+}
+
+.color-blue {
+  background-color: #2f3542;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.color-blue:hover {
+  cursor: pointer;
+}
+
+
+.onekey{
+  position: absolute;
+  margin-left: 20px;
+  width: 20%;
+}
+
+
+.mgl-0{
+  width:100%;
+}
+
+
+#page-top > section > div > div > div > table > tbody > tr > td{
+  padding: 0.4rem 0;
+}
+
+.formTime{
+  text-align: left;
+  font-size: 16px;
+  margin: 1rem 0;
+}
+
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 20%;
+}
+
+.dis-ib-custom{
+  display: inline-block;
+}
+
+.copy-custom{
+  display: inline;
+  background-color: #BEBEBE;
+  margin-left: 10px;
+  padding: 6px 10px 4px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.table_booku thead tr th{
+  padding: 0rem 0.5rem;
+}
+
+.table_bookf tbody tr td{
+  padding: 0.4rem 0;
+}
+
+/* .bor-lef-custom{ */
+/*   position: absolute; */
+/*   left:5%; */
+/* } */
+
+.w100-h40 {
+  width: 100px;
+  height: 40px;
+  padding: 0;
+}
+
+.h-max-custom{
+  height:300px
+}
+
+.back2 {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 20%;
+}
